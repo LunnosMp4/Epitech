@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "my_runner.h": "c",
+        "object.h": "c"
+    }
+}

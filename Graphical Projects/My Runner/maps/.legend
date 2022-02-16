@@ -1,0 +1,6 @@
+The map is made up of 20 points. Each point represents 50 pixels so the map is 1000 pixels long.
+The x represents an enemy and the o a second enemy.
+If you place several x or o the game will only take into account the first one in the map.
+You can also change the difficulty while changing the speed of the logs.
+For doing this you must change the value after 'D:'. Default value is 1
+Enjoy the game !
