@@ -1,0 +1,5 @@
+.vscode
+*.o
+lib/my/libmy.a
+parse_map/
+my_rpg
