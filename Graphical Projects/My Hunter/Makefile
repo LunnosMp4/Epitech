@@ -7,8 +7,7 @@
 
 CC	=	gcc
 
-CFLAGS	=	-lcsfml-graphics -lcsfml-window \
-			-lcsfml-system -lcsfml-audio -I../include/
+CFLAGS	=	-lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio -I./include/
 
 
 SRC	=	$(wildcard my_files/*.c)

@@ -45,7 +45,7 @@ void init_text(game_t *game)
     sfVector2f textpos3 = {220, 20};
     sfVector2f scale = {1.5, 1.5};
     game->text = sfText_create();
-    game->font = sfFont_createFromFile("images/my_font.TTF");
+    game->font = sfFont_createFromFile("images/bit2.TTF");
     sfText_setFont(game->text, game->font);
     sfText_setPosition(game->text, textpos);
     sfText_setScale(game->text, scale);

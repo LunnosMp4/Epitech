@@ -8,7 +8,6 @@
 #include "../include/my_structures.h"
 
 void duck_speed(game_t *game);
-
 void duck_rev_speed(game_t *game);
 
 void run_animation(animation_t *animation, game_t *game, \

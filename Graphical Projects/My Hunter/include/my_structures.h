@@ -5,14 +5,17 @@
 ** my_hunter.h
 */
 
-#include <SFML/Graphics.h>
-#include <SFML/System.h>
-#include <SFML/Audio.h>
-#include <stdlib.h>
-#include <stdio.h>
+#ifndef MY_HUNTER_H
+    #define MY_HUNTER_H
 
-#define WIDTH 800
-#define HEIGHT 600
+    #include <SFML/Graphics.h>
+    #include <SFML/System.h>
+    #include <SFML/Audio.h>
+    #include <stdlib.h>
+    #include <stdio.h>
+
+    #define WIDTH 800
+    #define HEIGHT 600
 
 typedef struct game {
     sfRenderWindow *window;
@@ -57,3 +60,5 @@ typedef struct entity {
     sfSprite *cursor;
     sfSprite *blood;
 } entity_t;
+
+#endif

@@ -5,8 +5,7 @@
 ** convert_int_to_string.c
 */
 
-char *convert_int_to_string(int str, char tot[])
-{
+char *convert_int_to_string(int str, char tot[]) {
     char digit[] = "0123456789";
     char *arg = tot;
     int string = str;
@@ -14,12 +13,12 @@ char *convert_int_to_string(int str, char tot[])
         *arg++ = '-';
         str = str * -1;
     }
-    while (string) {
+    while(string) {
         arg++;
         string = string / 10;
     }
     *arg = '\0';
-    while (str) {
+    while(str) {
         *--arg = digit[str % 10];
         str = str / 10;
     }

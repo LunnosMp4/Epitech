@@ -8,13 +8,9 @@
 #include "../include/my_structures.h"
 
 char *convert_int_to_string(int i, char b[]);
-
 void init_game(game_t *game, entity_t *entity, animation_t *animation);
-
 void sinusoidal_movement(entity_t *entity , game_t *game);
-
 void blood_explosion(animation_t *animation, game_t *game, entity_t *entity);
-
 void is_dead(game_t *game, entity_t *entity, animation_t *animation);
 
 void close_window(sfRenderWindow *window)
@@ -24,8 +20,7 @@ void close_window(sfRenderWindow *window)
 
 game_t *create_game(sfVideoMode mode, game_t *game, sfColor clear_color)
 {
-    game->window = sfRenderWindow_create(mode, "My Hunter",
-    sfClose, NULL);
+    game->window = sfRenderWindow_create(mode, "My Hunter", sfClose, NULL);
     sfWindow_setFramerateLimit(game->window, 60);
     game->clear_color = clear_color;
     return game;
@@ -55,15 +50,6 @@ void draw_game(game_t *game, entity_t *entity, animation_t *animation)
     sfRenderWindow_display(game->window);
 }
 
-void set_string(game_t *game)
-{
-    sfText_setString(game->textS, "Score :");
-    sfText_setString(game->textL, "Lives :");
-    sfText_setString(game->textGO, "Game Over");
-    sfText_setString(game->text, game->buff);
-    sfText_setString(game->textLoose, game->buff2);
-}
-
 void process_game(sfEvent event, game_t *game, \
 entity_t *entity, animation_t *animation)
 {
@@ -74,14 +60,19 @@ entity_t *entity, animation_t *animation)
     while (sfRenderWindow_isOpen(game->window)) {
         game->buff = convert_int_to_string(game->score, string);
         game->buff2 = convert_int_to_string(game->loose, string2);
-        set_string(game);
+        sfText_setString(game->textS, "Score :");
+        sfText_setString(game->textL, "Lives :");
+        sfText_setString(game->textGO, "Game Over");
+        sfText_setString(game->text, game->buff);
+        sfText_setString(game->textLoose, game->buff2);
         sfVector2f movex = {game->speed, 0};
         my_crosshair(game, entity);
         blood_explosion(animation, game, entity);
         run_animation(animation, game, entity, movex);
         set_spawn(game->window, entity, game);
-        while (sfRenderWindow_pollEvent(game->window, &event))
+        while (sfRenderWindow_pollEvent(game->window, &event)) {
             analyse_events(game, event, entity, animation);
+        }
         draw_game(game, entity, animation);
     }
 }
@@ -91,7 +82,6 @@ void destroy_game(game_t *game, entity_t *entity, animation_t *animation)
     sfMusic_destroy(game->music);
     sfMusic_destroy(game->blood);
     sfMusic_destroy(game->gun);
-    sfMusic_destroy(game->GameOver);
     sfSprite_destroy(entity->sprite);
     sfSprite_destroy(entity->sprite_background);
     sfTexture_destroy(entity->texture);
