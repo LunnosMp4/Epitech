@@ -1,0 +1,6 @@
+*.o
+*.a
+*.cor
+.vscode/*
+corewar/corewar
+asm/asm

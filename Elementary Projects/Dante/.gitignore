@@ -1,0 +1,5 @@
+*.o
+.vscode/
+generator/generator
+slover/slover
+maze.txt
