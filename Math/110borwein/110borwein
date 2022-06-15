@@ -1,0 +1,113 @@
+#!/usr/bin/python3
+
+import sys
+import math
+
+def calc_math_pi(pi, result):
+    n_pi = result - pi
+
+    if n_pi >= 0:
+        return n_pi
+    return -n_pi
+
+def borwein(n, x):
+    c = 0
+    result = 0
+    i = 0
+    j = 0
+    k = 0
+
+    if (x == 0):
+        return 1
+    while k <= n:
+        c = (2 * k) + 1
+        i = math.sin(x / c)
+        j = x / c
+        if (k != 0):
+            result *= (i / j)
+        else:
+            result = (i / j)
+        k += 1
+    return result
+
+def midpoint(n, pi):
+    result = 0
+    tmp = 0
+    i = 0
+    j = 0.5
+
+    while j <= 5000:
+        tmp = borwein(n, ((i + j) / 2))
+        tmp *= j - i
+        result += tmp
+        i += 0.5
+        j += 0.5
+    
+    pi = calc_math_pi(pi, result)
+    print("Midpoint:\nI%.0f = %.10f\n" %(n, result), end='')
+    print("diff = %.10f\n\n" %pi, end='')
+
+def trapezoidal(n, pi):
+    result = 0
+    c = 0
+    i = 0
+    j = 0.5
+
+    while j <= 5000:
+        c = borwein(n, i) + borwein(n, j)
+        c *= ((j - i) / 2)
+        result += c
+        i += 0.5
+        j += 0.5
+    pi = calc_math_pi(pi, result)
+    print("Trapezoidal:\nI%.0f = %.10f\n" %(n, result), end='')
+    print("diff = %.10f\n\n" %pi, end='')
+
+
+def simpson(n, pi):
+    result = 0
+    c = 0
+    i = 0
+    j = 0.5
+
+    while j <= 5000:
+        c = borwein(n, i) + borwein(n, j)
+        c += 4 * borwein(n, ((i + j) / 2))
+        c *= ((j - i) / 6)
+        result += c
+        i += 0.5
+        j += 0.5
+    pi = calc_math_pi(pi, result)
+    print("Simpson:\nI%.0f = %.10f\n" %(n, result), end='')
+    print("diff = %.10f\n" %pi, end='')
+
+def help_h():
+    try:
+        if sys.argv[1] == "-h":
+                print("""USAGE
+    ./110borwein n
+DESCRIPTION
+    n   constant defining the integral to be computed""")
+                sys.exit(0)
+    except ValueError:
+        sys.exit(84)
+
+def error_handling():
+    if len(sys.argv) != 2:
+        sys.exit(84)
+    help_h()
+    try:
+        int(sys.argv[1])
+    except ValueError:
+        sys.exit(84)
+    if int(sys.argv[1]) < 0:
+        sys.exit(84)
+
+def main():
+    error_handling()
+    midpoint(int(sys.argv[1]), math.pi / 2)
+    trapezoidal(int(sys.argv[1]), math.pi / 2)
+    simpson(int(sys.argv[1]), math.pi / 2)
+
+if __name__=='__main__':
+    main()

@@ -1,0 +1,132 @@
+#!/bin/python3
+
+##
+# EPITECH PROJECT, 2021
+# Bootstrap 102architek1
+# File description:
+# 102archi.py
+##
+
+import math
+import sys
+from math import *
+
+def cosinus(arg, pi):
+    cos = float(arg)
+    cos /= 180
+    cos *= pi
+    tot = math.cos(cos)
+    return tot
+
+def sinus(arg, pi):
+    sin = float(arg)
+    sin /= 180
+    sin *= pi
+    tot = math.sin(sin)
+    return tot
+
+def translation(array, counter):
+    array[2] += float(sys.argv[counter + 1]); array[5] += float(sys.argv[counter + 2])
+
+def scalling(array, counter):
+    array[0] *= float(sys.argv[counter + 1]); array[4] *= float(sys.argv[counter + 2])
+
+def rotation(array, counter):
+    array[0] = cosinus(float(sys.argv[counter + 1]), pi); array[1] = - sinus(float(sys.argv[counter + 1]), pi)
+    array[3] = sinus(float(sys.argv[counter + 1]), pi)
+    array[4] = array[0]
+
+
+def main():
+    if len(sys.argv) == 1:
+        sys.exit(84)
+    if len(sys.argv) == 2 and sys.argv[1] != "-h":
+        sys.exit(84)
+    if sys.argv[1] == "-h":
+        print("""USAGE
+    ./102architect x y transfo1 arg11 [arg12] [transfo2 arg12 [arg22]] ...\n
+DESCRIPTION
+    x abscissa of the original point
+    y ordinate of the original point\n
+    transfo arg1 [arg2]
+    -t i j translation along vector (i, j)
+    -z m n scaling by factors m (x-axis) and n (y-axis)
+    -r d rotation centered in O by a d degree angle
+    -s d reflection over the axis passing through O with an inclination
+        angle of d degrees""")
+        sys.exit(0)
+
+    try:
+        int(sys.argv[1])
+        int(sys.argv[2])
+    except ValueError:
+        sys.exit((84))
+
+    x = int(sys.argv[1])
+    y = int(sys.argv[2])
+    tmp = 0
+    posx = x
+    posy = y
+    argc = len(sys.argv)
+    pi = 3.141592653589
+    array = [1.00, 0.00, 0.00, 0.00, 1.00, 0.00, 0.00, 0.00, 1.00]
+
+    for counter in range(argc) :
+        if sys.argv[counter] == "-t":
+            if counter + 3 <= argc:
+                try:
+                    int(sys.argv[counter + 1])
+                    int(sys.argv[counter + 2])
+                except ValueError:
+                    sys.exit((84))
+                print("Translation along vector (", sys.argv[counter + 1], ", ", sys.argv[counter + 2], ")", sep="")
+                translation(array, counter)
+            else:
+                sys.exit(84)
+        if sys.argv[counter] == "-z":
+            if counter + 3 <= argc:
+                try:
+                    int(sys.argv[counter + 1])
+                    int(sys.argv[counter + 2])
+                except ValueError:
+                    sys.exit((84))
+                print("Scaling by factors ", sys.argv[counter + 1], " and ", sys.argv[counter + 2], sep="")
+                scalling(array, counter)
+            else :
+                sys.exit(84)
+        if sys.argv[counter] == "-r":
+            if counter + 2 <= argc:
+                try:
+                    int(sys.argv[counter + 1])
+                except ValueError:
+                    sys.exit((84))
+                print("Rotation by a ", sys.argv[counter + 1], " degree angle", sep="")
+                rotation(array,counter)
+            else :
+                sys.exit(84)
+        if sys.argv[counter] == "-s":
+            if counter + 2 <= argc:
+                try:
+                    int(sys.argv[counter + 1])
+                except ValueError:
+                    sys.exit(84)
+                print("Reflection over an axis with an inclination angle of ", sys.argv[counter + 1], " degrees", sep="")
+            else :
+                sys.exit(84)
+
+    print("%.2f"%array[0], "\t", "%.2f"%array[1], "\t", "%.2f"%array[2], "\n", "%.2f"%array[3], "\t", "%.2f"%array[4],
+    "\t", "%.2f"%array[5], "\n", "%.2f"%array[6], "\t", "%.2f"%array[7], "\t", "%.2f"%array[8], sep="")
+    dx = float(x)
+    dy = float(y)
+    a0 = array[0] * dx
+    a1 = array[1] * dy
+    a2 = array[2]
+    a3 = array[3] * dx
+    a4 = array[4] * dy
+    a5 = array[5]
+    posdx = a0 + a1 + a2
+    posdy = a3 + a4 + a5
+    print("(", "%.2f" %dx,", ", "%.2f" %dy, ")", " => ", "(", "%.2f" %posdx,", ", "%.2f" %posdy, ")", sep="")
+
+if __name__ == '__main__':
+    main()

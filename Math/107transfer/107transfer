@@ -1,0 +1,58 @@
+#!/bin/python3
+from math import *
+import sys
+
+def help_h():
+    try:
+        if len(sys.argv) == 2 and sys.argv[1] == "-h":
+            print("""USAGE
+    ./107transfer [num den]*
+DESCRIPTION
+    num     polynomial numerator defined by its coefficients
+    den     polynomial denominator defined by its coefficients""")
+            sys.exit(0)
+        else:
+            return
+    except ValueError:
+        sys.exit(84)
+
+def create_arr(arr):
+    arr = arr.split("*")
+    return arr
+
+def calc(arr, count):
+    res = 0
+    i = len(arr) - 1
+    while i >= 0:
+        res = (res * count) + float(arr[i])
+        i -= 1
+    return res
+
+def main():
+    res = 1.0
+    count = 0.000
+    f_arr = 0
+    s_arr = 0
+    num = 0
+    den = 0
+
+    help_h()
+    while count < 1.001:
+        for i in range(1, len(sys.argv), 2):
+            f_arr = create_arr(sys.argv[i])
+            s_arr = create_arr(sys.argv[i + 1])
+            num = calc(f_arr, count)
+            den = calc(s_arr, count)
+            if (num == den):
+                res *= 1
+            elif (den == 0):
+                    sys.exit(84)
+            else:
+                res = res * (float(num) / float(den))
+        print("%.3f -> %.5f" %(count, res))
+        count += 0.001
+        res = 1.0
+    sys.exit(0)
+
+if __name__ == '__main__':
+    main()

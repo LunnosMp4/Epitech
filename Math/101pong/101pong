@@ -1,0 +1,86 @@
+#!/bin/python3
+
+##
+## EPITECH PROJECT, 2021
+## 101pong
+## File description:
+## 101pong.py
+##
+
+import math, sys
+from math import *
+
+def main():
+
+    if len(sys.argv) == 1:
+        sys.exit(84)
+
+    if sys.argv[1] == "-h" :
+        print("""USAGE
+    ./101pong x0 y0 z0 x1 y1 z1 n
+
+DESCRIPTION
+    x0 ball abscissa at time t - 1
+    y0 ball ordinate at time t - 1
+    z0 ball altitude at time t - 1
+    x1 ball abscissa at time t
+    y1 ball ordinate at time t
+    z1 ball altitude at time t
+    n time shift (greater than or equal to zero, integer)""")
+        sys.exit(0)
+
+    if len(sys.argv) != 8 and sys.argv[1] != "-h":
+        print("Syntax error, please refer to ./101pong -h")
+        sys.exit(84)
+
+    x0 = float(sys.argv[1])
+    x1 = float(sys.argv[4])
+    y0 = float(sys.argv[2])
+    y1 = float(sys.argv[5])
+    z0 = float(sys.argv[3])
+    z1 = float(sys.argv[6])
+    n = int(sys.argv[7])
+
+
+    if n < 0:
+        sys.exit(84)
+
+    # Calcul vecteur velocité
+    vx = x1 - x0
+    vy = y1 - y0
+    vz = z1 - z0
+    print ("The velocity vector of the ball is:\n(%.2f, %.2f, %.2f)" %(vx, vy, vz))
+
+    # Calcul coordonées apres un temp t donné
+    x2 = x1 + n * vx
+    y2 = y1 + n * vy
+    z2 = z1 + n * vz
+    print ("At time t + %d, ball coordinates will be:" %n)
+    print ("(%.2f, %.2f, %.2f)" %(x2, y2, z2))
+
+    # Calcul de l'angle
+    pi = 3.141592653589
+    vx2 = pow(vx, 2)
+    vy2 = pow(vy, 2)
+    vz2 = pow(vz, 2)
+    vtot2 = vx2 + vy2 + vz2
+    if vtot2 == 0:
+        print("The ball won't reach the paddle.")
+        sys.exit(84)
+    else :
+        sqrco = sqrt(vtot2)
+        agl = acos(abs(vz) / sqrco)
+        agl = agl * 180
+        agl = agl / pi
+        agl = 90 - agl
+
+    if agl <= 0 or agl == 90 or (vz == 0) & (z1 != 0) or -z1/vz < 0:
+        print("The ball won't reach the paddle.")
+        sys.exit(0)
+    else :
+        print("The incidence angle is:")
+        print("%.2f degrees" %agl)
+        sys.exit(0)
+
+if __name__ == '__main__':
+    main()
