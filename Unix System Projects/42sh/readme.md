@@ -88,7 +88,7 @@ With an animation at launch !
 ## Contributors
 
 - [Lunnos](https://github.com/LunnosMp4)
-- [Doud Irow](https://github.com/0yco)
+- [0yco](https://github.com/0yco)
 - [NickSpyker](https://github.com/NickSpyker)
 - [Thorf1nn](https://github.com/Thorf1nn)
 - [Alexia](https://github.com/alexia7)
