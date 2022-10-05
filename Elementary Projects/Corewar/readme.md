@@ -67,5 +67,5 @@ Battle up to 4 champions !
 
 - [Lunnos](https://github.com/LunnosMp4) (Virtual Machine)
 - [Hugo Eschlimann](https://github.com/HugoEschlimann) (ASM)
-- [Doud Irow](https://github.com/0yco) (Virtual Machine)
+- [0yco](https://github.com/0yco) (Virtual Machine)
 - [Nico-coder-ui](https://github.com/Nico-coder-ui) (ASM)
