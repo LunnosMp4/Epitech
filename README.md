@@ -5,7 +5,7 @@
 
 ## Index
 
-### Tek 1
+### Tek 1
 
 - **Unix System**
     - [42sh](https://github.com/LunnosMp4/Epitech/tree/master/Tek%201/Unix%20System%20Projects/42sh) *← The most stylish*
@@ -19,7 +19,8 @@
     - [My Defender](https://github.com/LunnosMp4/Epitech/tree/master/Tek%201/Graphical%20Projects/My%20Defender)
     - [My Rpg](https://github.com/LunnosMp4/Epitech/tree/master/Tek%201/Graphical%20Projects/My%20RPG) *← The funniest*
 
-### Tek 2
+
+### Tek 2
 
 - **Object Oriented Programming**
     - [Arcade](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Object-Oriented%Programming/Arcade)
