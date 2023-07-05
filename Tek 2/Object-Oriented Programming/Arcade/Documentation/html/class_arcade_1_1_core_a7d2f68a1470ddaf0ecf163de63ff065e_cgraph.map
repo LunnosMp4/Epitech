@@ -1,0 +1,4 @@
+<map id="Arcade::Core::drawTextMenu" name="Arcade::Core::drawTextMenu">
+<area shape="rect" id="node1" title="Draw the Text Menu." alt="" coords="5,5,197,32"/>
+<area shape="rect" id="node2" href="$class_i_graphical.html#aabb2d277f849a431232ea7367052def9" title="Draw a text." alt="" coords="245,5,388,32"/>
+</map>

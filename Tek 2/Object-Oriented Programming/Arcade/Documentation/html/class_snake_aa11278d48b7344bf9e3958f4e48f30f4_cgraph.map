@@ -1,0 +1,5 @@
+<map id="Snake::render" name="Snake::render">
+<area shape="rect" id="node1" title="Render the game." alt="" coords="5,31,108,57"/>
+<area shape="rect" id="node2" href="$class_i_graphical.html#a94382950ff93b5e75ce0d7e45bcea546" title="Draw a rectangle." alt="" coords="156,5,332,32"/>
+<area shape="rect" id="node3" href="$class_i_graphical.html#aabb2d277f849a431232ea7367052def9" title="Draw a text." alt="" coords="173,56,315,83"/>
+</map>

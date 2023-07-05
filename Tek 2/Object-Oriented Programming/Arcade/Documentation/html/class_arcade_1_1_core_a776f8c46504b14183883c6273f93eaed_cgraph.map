@@ -1,0 +1,5 @@
+<map id="Arcade::Core::~Core" name="Arcade::Core::~Core">
+<area shape="rect" id="node1" title="Destroy the Core object." alt="" coords="5,13,148,39"/>
+<area shape="rect" id="node2" href="$class_arcade_1_1_d_l_loader.html#abf8195d119ba9eb5b59e1d7792b72dd0" title="Close the library." alt="" coords="196,13,379,39"/>
+<area shape="rect" id="node3" href="$class_arcade_1_1_d_l_loader_1_1_d_l_error_exception.html#abbbd903b9d18c54436485624482e3471" title=" " alt="" coords="427,5,607,47"/>
+</map>

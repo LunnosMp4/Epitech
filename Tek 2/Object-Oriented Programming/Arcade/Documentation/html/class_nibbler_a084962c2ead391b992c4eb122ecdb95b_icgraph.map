@@ -1,0 +1,5 @@
+<map id="Nibbler::start" name="Nibbler::start">
+<area shape="rect" id="node1" title=" " alt="" coords="192,31,289,57"/>
+<area shape="rect" id="node2" href="$class_nibbler.html#a482b8c2dce4f524420e255bacbb9fabd" title="Handle the input of the player." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node3" href="$class_nibbler.html#afc11e418908e1a918e82071e8cad876e" title="Initialize the game." alt="" coords="31,56,119,83"/>
+</map>

@@ -1,0 +1,8 @@
+g 3
+LUNNOS 13
+Enzo 2
+f 21
+Lolo 13
+Lunnos 35
+wiwi 50
+non 3

@@ -1,0 +1,13 @@
+<map id="Snake" name="Snake">
+<area shape="rect" id="node1" title=" " alt="" coords="940,327,999,353"/>
+<area shape="rect" id="node2" href="$class_i_game.html" title=" " alt="" coords="761,247,823,273"/>
+<area shape="rect" id="node3" title=" " alt="" coords="202,377,241,404"/>
+<area shape="rect" id="node6" title=" " alt="" coords="367,121,549,162"/>
+<area shape="rect" id="node9" href="$struct_snake_1_1_fruit.html" title=" " alt="" coords="605,411,698,437"/>
+<area shape="rect" id="node10" href="$struct_snake_1_1_snake_segment.html" title=" " alt="" coords="573,377,729,404"/>
+<area shape="rect" id="node4" title=" " alt="" coords="181,99,261,125"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,91,132,133"/>
+<area shape="rect" id="node7" href="$class_i_graphical.html" title=" " alt="" coords="417,327,499,353"/>
+<area shape="rect" id="node8" title=" " alt="" coords="414,69,502,96"/>
+<area shape="rect" id="node11" title=" " alt="" coords="769,584,815,611"/>
+</map>

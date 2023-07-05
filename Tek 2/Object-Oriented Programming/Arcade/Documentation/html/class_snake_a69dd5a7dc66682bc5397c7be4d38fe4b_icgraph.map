@@ -1,0 +1,7 @@
+<map id="Snake::saveHighScores" name="Snake::saveHighScores">
+<area shape="rect" id="node1" title=" " alt="" coords="375,31,537,57"/>
+<area shape="rect" id="node2" href="$class_snake.html#a8995726d3ac3be93774d306509c82442" title=" " alt="" coords="164,5,323,32"/>
+<area shape="rect" id="node4" href="$class_snake.html#af0cf894b38736b13ff9168e819adfbe7" title=" " alt="" coords="160,56,327,83"/>
+<area shape="rect" id="node3" href="$class_snake.html#a6ace6f4b3bfb7624753ccc79e1b3b6bf" title="Initialize the game." alt="" coords="17,5,101,32"/>
+<area shape="rect" id="node5" href="$class_snake.html#a196e869afd2334fcde712e31539742a8" title="Update the game each frame." alt="" coords="5,56,112,83"/>
+</map>

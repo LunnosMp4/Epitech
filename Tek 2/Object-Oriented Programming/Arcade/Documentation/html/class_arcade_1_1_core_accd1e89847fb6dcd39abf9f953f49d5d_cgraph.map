@@ -1,0 +1,7 @@
+<map id="Arcade::Core::gameLoop" name="Arcade::Core::gameLoop">
+<area shape="rect" id="node1" title="Call IGame functions to handle the game." alt="" coords="5,81,172,108"/>
+<area shape="rect" id="node2" href="$class_i_game.html#a44de7e08e7ee294be051445a84306299" title="Get the State of the game." alt="" coords="229,5,347,32"/>
+<area shape="rect" id="node3" href="$class_i_game.html#a6ff59abab9dce77acac2f3aac14f7b42" title="Handle the input of the player." alt="" coords="220,56,356,83"/>
+<area shape="rect" id="node4" href="$class_i_game.html#aa8024885fceba1e8fecdb3bb64f72763" title="Render the game." alt="" coords="235,107,341,133"/>
+<area shape="rect" id="node5" href="$class_i_game.html#a51019f9c20ac3fe8d04d3f7efafe996e" title="Update the game each frame." alt="" coords="234,157,342,184"/>
+</map>

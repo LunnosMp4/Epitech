@@ -1,0 +1,7 @@
+<map id="Nibbler::saveHighScores" name="Nibbler::saveHighScores">
+<area shape="rect" id="node1" title=" " alt="" coords="383,31,549,57"/>
+<area shape="rect" id="node2" href="$class_nibbler.html#ade3f7646d18852cb20cc568aa89308ff" title=" " alt="" coords="168,5,331,32"/>
+<area shape="rect" id="node4" href="$class_nibbler.html#acfde2d02e09e22d9a5511cf9b4e4fdbf" title=" " alt="" coords="164,56,335,83"/>
+<area shape="rect" id="node3" href="$class_nibbler.html#afc11e418908e1a918e82071e8cad876e" title="Initialize the game." alt="" coords="17,5,105,32"/>
+<area shape="rect" id="node5" href="$class_nibbler.html#a51edaebec14acaf05241c88b0dc280f1" title="Update the game each frame." alt="" coords="5,56,116,83"/>
+</map>

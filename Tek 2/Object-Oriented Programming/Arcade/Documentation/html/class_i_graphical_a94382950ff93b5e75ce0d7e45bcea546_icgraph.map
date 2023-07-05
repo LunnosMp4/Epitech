@@ -1,0 +1,7 @@
+<map id="IGraphical::drawRectangle" name="IGraphical::drawRectangle">
+<area shape="rect" id="node1" title="Draw a rectangle." alt="" coords="416,56,592,83"/>
+<area shape="rect" id="node2" href="$class_arcade_1_1_core.html#a3d33cd84c1ea643f4353dcd84ac81b4a" title="Display the Menu." alt="" coords="188,5,368,32"/>
+<area shape="rect" id="node4" href="$class_nibbler.html#a60faf14cca6fce52f70fb61fe43573ed" title="Render the game." alt="" coords="225,56,331,83"/>
+<area shape="rect" id="node5" href="$class_snake.html#a75d9b3b242acbc77a863391f3222ebbc" title="Render the game." alt="" coords="227,107,329,133"/>
+<area shape="rect" id="node3" href="$class_arcade_1_1_core.html#ac09ae60f6f46a60dc261974c900a0928" title="Init Core of the Arcade." alt="" coords="5,5,140,32"/>
+</map>

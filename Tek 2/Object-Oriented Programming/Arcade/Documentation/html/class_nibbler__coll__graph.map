@@ -1,0 +1,13 @@
+<map id="Nibbler" name="Nibbler">
+<area shape="rect" id="node1" title=" " alt="" coords="948,315,1011,341"/>
+<area shape="rect" id="node2" href="$class_i_game.html" title=" " alt="" coords="769,245,831,272"/>
+<area shape="rect" id="node3" title=" " alt="" coords="202,377,241,404"/>
+<area shape="rect" id="node6" title=" " alt="" coords="367,121,549,162"/>
+<area shape="rect" id="node9" href="$struct_nibbler_1_1_nibbler_segment.html" title=" " alt="" coords="573,433,737,460"/>
+<area shape="rect" id="node11" href="$struct_nibbler_1_1_fruit.html" title=" " alt="" coords="607,377,704,404"/>
+<area shape="rect" id="node4" title=" " alt="" coords="181,99,261,125"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,91,132,133"/>
+<area shape="rect" id="node7" href="$class_i_graphical.html" title=" " alt="" coords="417,327,499,353"/>
+<area shape="rect" id="node8" title=" " alt="" coords="414,69,502,96"/>
+<area shape="rect" id="node10" title=" " alt="" coords="777,501,823,528"/>
+</map>

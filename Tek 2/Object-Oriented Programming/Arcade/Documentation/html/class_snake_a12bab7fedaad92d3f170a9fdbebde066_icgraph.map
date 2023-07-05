@@ -1,0 +1,5 @@
+<map id="Snake::delay" name="Snake::delay">
+<area shape="rect" id="node1" title=" " alt="" coords="351,5,449,32"/>
+<area shape="rect" id="node2" href="$class_snake.html#aa225c2ad7dc98364c1b39886b7a6f0c4" title=" " alt="" coords="160,5,303,32"/>
+<area shape="rect" id="node3" href="$class_snake.html#a196e869afd2334fcde712e31539742a8" title="Update the game each frame." alt="" coords="5,5,112,32"/>
+</map>

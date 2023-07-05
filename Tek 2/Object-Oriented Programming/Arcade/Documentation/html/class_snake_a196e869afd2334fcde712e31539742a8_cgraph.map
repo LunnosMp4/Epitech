@@ -1,0 +1,9 @@
+<map id="Snake::update" name="Snake::update">
+<area shape="rect" id="node1" title="Update the game each frame." alt="" coords="5,56,112,83"/>
+<area shape="rect" id="node2" href="$class_snake.html#ac31845fa6830b6bba11cc7ed36e9ea74" title=" " alt="" coords="167,5,319,32"/>
+<area shape="rect" id="node3" href="$class_snake.html#af0cf894b38736b13ff9168e819adfbe7" title=" " alt="" coords="160,56,327,83"/>
+<area shape="rect" id="node5" href="$class_snake.html#aa225c2ad7dc98364c1b39886b7a6f0c4" title=" " alt="" coords="172,107,315,133"/>
+<area shape="rect" id="node4" href="$class_snake.html#a69dd5a7dc66682bc5397c7be4d38fe4b" title=" " alt="" coords="375,56,537,83"/>
+<area shape="rect" id="node6" href="$class_snake.html#a12bab7fedaad92d3f170a9fdbebde066" title=" " alt="" coords="407,107,505,133"/>
+<area shape="rect" id="node7" href="$class_snake.html#a397cee5c8223bd7ff2c139aea0cb314a" title=" " alt="" coords="385,157,527,184"/>
+</map>

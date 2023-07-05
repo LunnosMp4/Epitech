@@ -1,0 +1,5 @@
+# SI VOUS VOULEZ IGNORER DES CHOSES DANS VOTRE PARTIE
+zappy_server
+*.log
+*.sh
+*.o

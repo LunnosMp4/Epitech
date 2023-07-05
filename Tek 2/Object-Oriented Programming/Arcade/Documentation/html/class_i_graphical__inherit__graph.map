@@ -1,0 +1,7 @@
+<map id="IGraphical" name="IGraphical">
+<area shape="rect" id="node1" title=" " alt="" coords="115,5,196,32"/>
+<area shape="rect" id="node2" href="$class_allegro.html" title=" " alt="" coords="5,80,68,107"/>
+<area shape="rect" id="node3" href="$class_s_d_l.html" title=" " alt="" coords="93,80,141,107"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l.html" title=" " alt="" coords="165,80,223,107"/>
+<area shape="rect" id="node5" href="$classn_curses.html" title=" " alt="" coords="247,80,317,107"/>
+</map>

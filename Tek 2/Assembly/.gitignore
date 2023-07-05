@@ -1,0 +1,5 @@
+test_libasm
+libasm.so
+test/
+tests/
+*.o

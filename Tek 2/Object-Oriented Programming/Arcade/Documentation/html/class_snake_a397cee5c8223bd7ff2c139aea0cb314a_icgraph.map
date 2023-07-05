@@ -1,0 +1,8 @@
+<map id="Snake::generateFruit" name="Snake::generateFruit">
+<area shape="rect" id="node1" title=" " alt="" coords="379,81,521,108"/>
+<area shape="rect" id="node2" href="$class_snake.html#a43c67b0c33d0962c1f107141d1c2ae64" title=" " alt="" coords="213,56,306,83"/>
+<area shape="rect" id="node5" href="$class_snake.html#aa225c2ad7dc98364c1b39886b7a6f0c4" title=" " alt="" coords="188,107,331,133"/>
+<area shape="rect" id="node3" href="$class_snake.html#a089e0d7620e29cedd225868193de0a3f" title="Handle the input of the player." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node4" href="$class_snake.html#a6ace6f4b3bfb7624753ccc79e1b3b6bf" title="Initialize the game." alt="" coords="31,56,115,83"/>
+<area shape="rect" id="node6" href="$class_snake.html#a196e869afd2334fcde712e31539742a8" title="Update the game each frame." alt="" coords="19,107,126,133"/>
+</map>

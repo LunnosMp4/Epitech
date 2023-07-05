@@ -1,0 +1,5 @@
+<map id="Snake::start" name="Snake::start">
+<area shape="rect" id="node1" title=" " alt="" coords="188,31,281,57"/>
+<area shape="rect" id="node2" href="$class_snake.html#a089e0d7620e29cedd225868193de0a3f" title="Handle the input of the player." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node3" href="$class_snake.html#a6ace6f4b3bfb7624753ccc79e1b3b6bf" title="Initialize the game." alt="" coords="31,56,115,83"/>
+</map>

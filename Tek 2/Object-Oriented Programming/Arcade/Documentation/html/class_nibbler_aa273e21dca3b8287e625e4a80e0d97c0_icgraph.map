@@ -1,0 +1,6 @@
+<map id="Nibbler::changeMap" name="Nibbler::changeMap">
+<area shape="rect" id="node1" title=" " alt="" coords="567,31,705,57"/>
+<area shape="rect" id="node2" href="$class_nibbler.html#af2b7d04bb5e41c6c2649305685e331b9" title=" " alt="" coords="368,31,519,57"/>
+<area shape="rect" id="node3" href="$class_nibbler.html#a734c97c91e5c0eb97fa7b9637f5ffbb4" title=" " alt="" coords="164,5,320,32"/>
+<area shape="rect" id="node4" href="$class_nibbler.html#a51edaebec14acaf05241c88b0dc280f1" title="Update the game each frame." alt="" coords="5,31,116,57"/>
+</map>

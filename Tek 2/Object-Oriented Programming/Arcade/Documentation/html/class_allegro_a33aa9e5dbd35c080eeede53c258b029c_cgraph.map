@@ -1,0 +1,4 @@
+<map id="Allegro::drawText" name="Allegro::drawText">
+<area shape="rect" id="node1" title="Draw a text." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$class_allegro.html#a4850a3a836f7088321ea95bbd9752db2" title=" " alt="" coords="176,5,295,32"/>
+</map>

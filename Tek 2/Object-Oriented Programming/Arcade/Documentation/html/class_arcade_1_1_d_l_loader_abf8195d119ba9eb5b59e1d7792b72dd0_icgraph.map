@@ -1,0 +1,4 @@
+<map id="Arcade::DLLoader::closeLib" name="Arcade::DLLoader::closeLib">
+<area shape="rect" id="node1" title="Close the library." alt="" coords="196,5,379,32"/>
+<area shape="rect" id="node2" href="$class_arcade_1_1_core.html#a776f8c46504b14183883c6273f93eaed" title="Destroy the Core object." alt="" coords="5,5,148,32"/>
+</map>

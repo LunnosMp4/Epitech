@@ -1,0 +1,5 @@
+<map id="Nibbler::render" name="Nibbler::render">
+<area shape="rect" id="node1" title="Render the game." alt="" coords="5,31,112,57"/>
+<area shape="rect" id="node2" href="$class_i_graphical.html#a94382950ff93b5e75ce0d7e45bcea546" title="Draw a rectangle." alt="" coords="160,5,336,32"/>
+<area shape="rect" id="node3" href="$class_i_graphical.html#aabb2d277f849a431232ea7367052def9" title="Draw a text." alt="" coords="177,56,319,83"/>
+</map>

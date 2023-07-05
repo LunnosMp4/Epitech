@@ -1,0 +1,29 @@
+<map id="Arcade::Core::displayMenu" name="Arcade::Core::displayMenu">
+<area shape="rect" id="node1" title="Display the Menu." alt="" coords="5,411,185,437"/>
+<area shape="rect" id="node2" href="$class_i_graphical.html#ad6283c4e58b0862fcdad1befb4f8a8a0" title="Clear the window." alt="" coords="271,5,388,32"/>
+<area shape="rect" id="node3" href="$class_i_graphical.html#af8891bf5b3d7285d09c85d753084cc97" title="Create a window object." alt="" coords="714,56,886,83"/>
+<area shape="rect" id="node4" href="$class_i_graphical.html#a879fc86442c3e2535d873e298266d26e" title="Display the window." alt="" coords="264,360,395,387"/>
+<area shape="rect" id="node5" href="$class_i_graphical.html#a94382950ff93b5e75ce0d7e45bcea546" title="Draw a rectangle." alt="" coords="241,411,417,437"/>
+<area shape="rect" id="node6" href="$class_i_graphical.html#a4c0568010c72b8f9fd31e64252f34e8a" title="Draw a sprite." alt="" coords="254,461,405,488"/>
+<area shape="rect" id="node7" href="$class_arcade_1_1_core.html#a7d2f68a1470ddaf0ecf163de63ff065e" title="Draw the Text Menu." alt="" coords="233,512,425,539"/>
+<area shape="rect" id="node9" href="$class_arcade_1_1_core.html#a8462e2ab4527bafc0c7624782b296f14" title="Find all the libraries in the lib folder." alt="" coords="253,563,405,589"/>
+<area shape="rect" id="node10" href="$class_arcade_1_1_core.html#accd1e89847fb6dcd39abf9f953f49d5d" title="Call IGame functions to handle the game." alt="" coords="246,613,413,640"/>
+<area shape="rect" id="node15" href="$class_arcade_1_1_core.html#a8f8a3113d37c78622deb295ddae8caf3" title="Get Inout of player for the Menu." alt="" coords="249,208,410,235"/>
+<area shape="rect" id="node24" href="$class_arcade_1_1_core.html#a35b886f5f0e789800fd2d82eb6f0c8c5" title="Set the Graphical Lib object." alt="" coords="701,309,899,336"/>
+<area shape="rect" id="node27" href="$class_i_graphical.html#a486036ba0300e7acaf1749c9191b39c1" title="Check if the window is open." alt="" coords="264,664,395,691"/>
+<area shape="rect" id="node8" href="$class_i_graphical.html#aabb2d277f849a431232ea7367052def9" title="Draw a text." alt="" coords="492,512,635,539"/>
+<area shape="rect" id="node11" href="$class_i_game.html#a44de7e08e7ee294be051445a84306299" title="Get the State of the game." alt="" coords="504,613,623,640"/>
+<area shape="rect" id="node12" href="$class_i_game.html#a6ff59abab9dce77acac2f3aac14f7b42" title="Handle the input of the player." alt="" coords="495,664,631,691"/>
+<area shape="rect" id="node13" href="$class_i_game.html#aa8024885fceba1e8fecdb3bb64f72763" title="Render the game." alt="" coords="511,715,616,741"/>
+<area shape="rect" id="node14" href="$class_i_game.html#a51019f9c20ac3fe8d04d3f7efafe996e" title="Update the game each frame." alt="" coords="509,563,617,589"/>
+<area shape="rect" id="node16" href="$class_i_graphical.html#a5d0deab34377ee06256dd24f339d4171" title="Destroy the window object." alt="" coords="711,259,889,285"/>
+<area shape="rect" id="node17" href="$class_i_graphical.html#a62064bceac1c2fe8a912587141cb8f0c" title="Get the Input object." alt="" coords="495,107,631,133"/>
+<area shape="rect" id="node18" href="$class_arcade_1_1_core.html#abec59c1f99346a5084284e90522e31fe" title="Launch the game selected." alt="" coords="473,157,653,184"/>
+<area shape="rect" id="node26" href="$class_arcade_1_1_core.html#ab52bcf86cdf7b7fdc28b345207381dce" title="Switch between the graphical libraries." alt="" coords="479,208,648,235"/>
+<area shape="rect" id="node19" href="$class_i_game.html#a36c0560d781e5bf57658ec19ea2c282e" title="Initialize the game." alt="" coords="757,208,843,235"/>
+<area shape="rect" id="node20" href="$class_arcade_1_1_core.html#a9276c4fca1513cd375904ed18764d631" title="Set the Game Lib object." alt="" coords="711,107,889,133"/>
+<area shape="rect" id="node25" href="$class_i_game.html#a8d7aa790c266dc79c50e815557de29ae" title="Set the State of the game." alt="" coords="741,157,859,184"/>
+<area shape="rect" id="node21" href="$class_arcade_1_1_d_l_loader.html#aa0414e056f3bf6622d76f5a814e32e15" title="Get the Symbol object (function)" alt="" coords="947,183,1144,209"/>
+<area shape="rect" id="node23" href="$class_arcade_1_1_d_l_loader.html#af7a7fb2824c96a1a597f910caf327cdf" title="Load dynamic libraries and display the menu." alt="" coords="957,233,1133,260"/>
+<area shape="rect" id="node22" href="$class_arcade_1_1_d_l_loader_1_1_d_l_error_exception.html#abbbd903b9d18c54436485624482e3471" title=" " alt="" coords="1192,201,1372,242"/>
+</map>

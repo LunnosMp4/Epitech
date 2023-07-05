@@ -1,0 +1,12 @@
+<map id="Arcade::Core::launchGame" name="Arcade::Core::launchGame">
+<area shape="rect" id="node1" title="Launch the game selected." alt="" coords="5,132,185,159"/>
+<area shape="rect" id="node2" href="$class_i_graphical.html#af8891bf5b3d7285d09c85d753084cc97" title="Create a window object." alt="" coords="246,5,418,32"/>
+<area shape="rect" id="node3" href="$class_i_graphical.html#a5d0deab34377ee06256dd24f339d4171" title="Destroy the window object." alt="" coords="243,56,421,83"/>
+<area shape="rect" id="node4" href="$class_i_game.html#a36c0560d781e5bf57658ec19ea2c282e" title="Initialize the game." alt="" coords="289,107,375,133"/>
+<area shape="rect" id="node5" href="$class_arcade_1_1_core.html#a9276c4fca1513cd375904ed18764d631" title="Set the Game Lib object." alt="" coords="243,157,421,184"/>
+<area shape="rect" id="node9" href="$class_arcade_1_1_core.html#a35b886f5f0e789800fd2d82eb6f0c8c5" title="Set the Graphical Lib object." alt="" coords="233,208,431,235"/>
+<area shape="rect" id="node10" href="$class_i_game.html#a8d7aa790c266dc79c50e815557de29ae" title="Set the State of the game." alt="" coords="273,259,391,285"/>
+<area shape="rect" id="node6" href="$class_arcade_1_1_d_l_loader.html#aa0414e056f3bf6622d76f5a814e32e15" title="Get the Symbol object (function)" alt="" coords="479,157,676,184"/>
+<area shape="rect" id="node8" href="$class_arcade_1_1_d_l_loader.html#af7a7fb2824c96a1a597f910caf327cdf" title="Load dynamic libraries and display the menu." alt="" coords="489,208,665,235"/>
+<area shape="rect" id="node7" href="$class_arcade_1_1_d_l_loader_1_1_d_l_error_exception.html#abbbd903b9d18c54436485624482e3471" title=" " alt="" coords="724,175,904,217"/>
+</map>
