@@ -23,8 +23,8 @@
 ### Tek 2
 
 - **Object Oriented Programming**
-    - [Arcade](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Object-Oriented%Programming/Arcade)
-    - [Raytracer](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Object-Oriented%Programming/Raytracer)
+    - [Arcade](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Object-Oriented%20Programming/Arcade)
+    - [Raytracer](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Object-Oriented%20Programming/Raytracer)
 - **Network Programming**
     - [My Ftp](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Network%20Programming/MyFTP)
     - [My Teams](https://github.com/LunnosMp4/Epitech/tree/master/Tek%202/Network%20Programming/MyTeams)
