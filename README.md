@@ -42,9 +42,9 @@ Most interesting project will be Area / R-Type, both took 3 months to complete. 
 The first one is an IFTTT application for mobile / web with a database, a back-end / front-end.<br>
 The second one is a 3D Graphic Engine with multiplayer capabilities. It is demonstrated with the reproduction of the R-Type in 3D and with network multiplayer.
 
--- **Application Development**
+- **Application Development**
     - [Area](https://github.com/LunnosMp4/Epitech/tree/master/Tek%203/Area)
--- **Advanced C++**
+- **Advanced C++**
     - [R-Type](https://github.com/LunnosMp4/Epitech/tree/master/Tek%203/R-Type)
 
 ## Try them all !
