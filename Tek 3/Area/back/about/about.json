@@ -1,0 +1,368 @@
+{
+  "client": {
+    "host": 1
+  },
+  "server": {
+    "current_time": 1699036950751,
+    "services": [
+      {
+        "name": "time",
+        "actions": [
+          {
+            "name": "time",
+            "description": "If the requested time/date is now or do it as soon as possible",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "time",
+                "examples": "MM-DD-YYYY, 12:00:00"
+              }
+            ]
+          }
+        ],
+        "reactions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "name": "weather",
+        "actions": [
+          {
+            "name": "weatherCondition",
+            "description": "Detects whether the weather matches your request",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "weather condition",
+                "examples": "clear, clouds, rain, snow, thunderstorm, drizzle"
+              }
+            ]
+          },
+          {
+            "name": "temperature",
+            "description": "Detects whether the temperature matches your request",
+            "parameters": [
+              {
+                "type": "number",
+                "value": "temperature",
+                "examples": ">20, <=25, =30, <35"
+              }
+            ]
+          }
+        ],
+        "reactions": [
+          {
+            "name": "getWeather",
+            "time_to_add": 180000,
+            "description": "Gets weather information"
+          }
+        ]
+      },
+      {
+        "name": "open",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "openDoor",
+            "time_to_add": 60000,
+            "description": "Open EPITECH's doors"
+          }
+        ]
+      },
+      {
+        "name": "crypto",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "default",
+            "description": "Get crypto's data",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "crypto name",
+                "exemples": "bitcoin, ethereum"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "lol",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "default",
+            "description": "Get stats about a League of Legends player",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "summoner name",
+                "exemples": "RiotSchmick, RiotPhreak"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fortnite",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "default",
+            "description": "Get stats about a Fortnite player",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "player name",
+                "exemples": "Ninja, Myth"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cocktail",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "default",
+            "description": "Get list of cocktails with the specified alcohol",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "alcohol",
+                "exemples": "gin, vodka"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "steam",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "stats",
+            "description": "Get profile stats of a Steam user",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "steam id",
+                "exemples": "76561197960435530"
+              }
+            ]
+          },
+          {
+            "name": "games",
+            "description": "Get 10 most played games of a Steam user",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "steam id",
+                "exemples": "76561197960435530"
+              }
+            ]
+          },
+          {
+            "name": "friends",
+            "description": "Get 10 most recent friends of a Steam user",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "steam id",
+                "exemples": "76561197960435530"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "fact",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "default",
+            "description": "Get a random fact"
+          }
+        ]
+      },
+      {
+        "name": "discord",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "sendTo",
+            "description": "Send a message to a Discord channel",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "webhook url",
+                "exemples": "https://discordapp.com/api/webhooks/..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "slack",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "sendTo",
+            "description": "Send a message to a Slack channel",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "webhook url",
+                "exemples": "https://hooks.slack.com/services/..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "teams",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "sendTo",
+            "description": "Send a message to a Microsoft Teams channel",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "webhook url",
+                "exemples": "https://outlook.office.com/webhook/..."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "telegram",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "sendTo",
+            "description": "Send a message to a Telegram channel",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "chat id",
+                "exemples": "123456789"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "mail",
+        "actions": [
+          {
+            "name": "",
+            "description": ""
+          }
+        ],
+        "reactions": [
+          {
+            "name": "sendTo",
+            "description": "Send a mail to a mail address",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "mail address",
+                "exemples": "smurfcat@gmail.com"
+              }
+            ]
+          }
+        ]
+      },      {
+        "name": "spotify",
+        "actions": [
+          {
+            "name": "lastMusicChange",
+            "description": "Detect whether or not the last music you listened to has changed"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "musicPlayList",
+            "description": "Add new music to the selected playlist",
+            "parameters": [
+              {
+                "type": "string",
+                "value": "music",
+                "exemples": "POP/STARS"
+              }, {
+                "type": "string",
+                "value": "artist",
+                "exemples": "K/DA"
+              }, {
+                "type": "string",
+                "value": "play list",
+                "exemples": "TestPlayList"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

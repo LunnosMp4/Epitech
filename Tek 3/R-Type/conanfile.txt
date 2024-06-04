@@ -1,0 +1,7 @@
+[requires]
+asio/1.28.2
+raylib/4.0.0
+
+[generators]
+CMakeDeps
+CMakeToolchain

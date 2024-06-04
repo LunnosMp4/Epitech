@@ -1,0 +1,15 @@
+rtype_server
+asio_client
+bin/
+.vscode
+*.o
+libs/
+Client/build
+Server/build
+n-ty.pe
+f-plane
+
+
+# CLion
+.idea/
+cmake-build-debug

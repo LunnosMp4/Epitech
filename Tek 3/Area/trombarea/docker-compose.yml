@@ -1,0 +1,10 @@
+version: '3'
+services:
+  flutter-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      - FLUTTER_HOME=/usr/local/flutter

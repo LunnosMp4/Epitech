@@ -1,0 +1,94 @@
+:root {
+    --content-max-width: 60em;
+    --pagination-title-color: var(--theme-color);
+    --theme-color-hover: #399d9b;
+}
+
+button {
+    cursor: pointer;
+}
+
+hr {
+    border-color: var(--theme-color);
+}
+
+#loader {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-size: 30px;
+}
+
+.sidebar>h1 .app-name-link {
+    font-size: 40px;
+}
+
+button.btn {
+    background-color: var(--theme-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+    button.btn:hover {
+        background-color: var(--theme-color-hover);
+    }
+
+    .btn.download a {
+        text-decoration: none;
+    }
+
+.sidebar-toggle-button:hover {
+    color: var(--theme-color);
+    transition: color 0.2s ease;
+}
+
+.search .clear-button.show {
+    margin: auto;
+}
+
+::marker {
+    color: var(--theme-color);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--theme-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-color-hover);
+}
+
+.sidebar-toggle-button > span {
+    transition: transform 0.3s ease;
+}
+
+.sidebar-toggle-button span:nth-child(2) {
+    transition: transform 0.5s ease;
+}
+
+    .sidebar-toggle-button:hover span:first-child {
+        transform: rotate(90deg) translate(5px, 8px);
+        
+    }
+
+    .sidebar-toggle-button:hover span:nth-child(2) {
+        transform: rotate(270deg);
+    }
+
+    .sidebar-toggle-button:hover span:last-child {
+        transform: rotate(90deg) translate(-5px, -8px);
+    }
